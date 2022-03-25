@@ -1,0 +1,23 @@
+{
+  "name": "atividade-2-sd",
+  "version": "1.0.0",
+  "description": "Repositorio da atividade 2 da disciplina de Sistemas Distribuidos",
+  "main": "index.js",
+  "repository": "https://github.com/ricardobgx/atividade-2-sd.git",
+  "author": "DRW",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@sequelize/core": "^7.0.0-alpha.10",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "sequelize": "^6.17.0",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
