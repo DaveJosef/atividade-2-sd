@@ -28,7 +28,7 @@ module.exports = {
   },
   async create(req, res) {
     try {
-      const comment = await Comment.create({ ...req.body });
+      const comment = await Comment.create(req.body);
 
       return res.status(201).json({ comment });
     } catch (err) {

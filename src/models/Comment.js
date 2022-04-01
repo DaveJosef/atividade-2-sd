@@ -8,11 +8,19 @@ const Comment = database.sequelize.define("Comment", {
     autoIncrement: true,
     primaryKey: true,
   },
-  content: {
+  userId: {
     type: DataTypes.STRING,
     allowNull: false,
   },
-  userId: {
+  userName: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  },
+  userImage: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  },
+  content: {
     type: DataTypes.STRING,
     allowNull: false,
   },
