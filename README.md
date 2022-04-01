@@ -1,14 +1,16 @@
 # Informações
 
-Esse app express é o servidor da atividade. Os outros dois:
+Esse app express é o servidor da API de comentários da atividade. Os outros dois:
 https://github.com/ricardobgx/atividade-2-sd-api-gateway
 https://github.com/weligtonferreira/atividade-2-sd-front
 
-Se tratam da API de Gateway e do front, respectivamente.
+Se tratam do API Gateway e do front, respectivamente.
 
 ## Variáveis de amviente
 
+```
 PORT={Porta em que o servidor irá rodar}
+```
 
 ## Para executar
 
